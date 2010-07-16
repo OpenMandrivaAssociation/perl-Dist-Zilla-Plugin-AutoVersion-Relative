@@ -1,5 +1,5 @@
 %define upstream_name    Dist-Zilla-Plugin-AutoVersion-Relative
-%define upstream_version 0.01010513
+%define upstream_version 0.01027903
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
