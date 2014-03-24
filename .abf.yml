@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-AutoVersion-Relative-0.01037118.tar.gz: 31db854d897e5ee2c835cc8afb85b323cb738b39
 sources:
-  "Dist-Zilla-Plugin-AutoVersion-Relative-0.01037118.tar.gz": 31db854d897e5ee2c835cc8afb85b323cb738b39
+  Dist-Zilla-Plugin-AutoVersion-Relative-0.03000002.tar.gz: 70f934cfb0cc2de1d14139568b3c31fbca9e9f31

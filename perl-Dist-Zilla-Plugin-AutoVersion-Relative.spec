@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-AutoVersion-Relative
-%define upstream_version 0.01037118
+%define upstream_version 0.03000002
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Time-Relative versioning
 License:	GPL+ or Artistic
@@ -48,4 +48,5 @@ perl Build.PL installdirs=vendor
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
