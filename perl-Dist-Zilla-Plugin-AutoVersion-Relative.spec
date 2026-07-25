@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugin-AutoVersion-Relative
-%define upstream_version 0.03000002
+%define upstream_version 1.001001
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Time-Relative versioning
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/kentnl/Dist-Zilla-Plugin-AutoVersion-Relative
+Source0:	https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-AutoVersion-Relative-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(aliased)
