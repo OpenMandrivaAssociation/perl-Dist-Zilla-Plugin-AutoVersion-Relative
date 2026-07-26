@@ -1,15 +1,13 @@
 %define upstream_name    Dist-Zilla-Plugin-AutoVersion-Relative
-%define upstream_version 1.001001
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.001001
+Release:	2
 
 Summary:	Time-Relative versioning
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/kentnl/Dist-Zilla-Plugin-AutoVersion-Relative
-Source0:	https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-AutoVersion-Relative-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-AutoVersion-Relative-%{version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(aliased)
@@ -31,7 +29,7 @@ BuildArch:	noarch
 Time-Relative versioning.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Build.PL installdirs=vendor
